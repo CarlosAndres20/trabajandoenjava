@@ -14,7 +14,7 @@ else if(numero1==numero2){
  la persona es mayor a 18 años indicar es mayor de edad 
  de lo contrario indicar que es menor de edad 
  si tiene la edad menor o igual a 33 eres milenial
- si es mayor o igual a 70 eres una ancianito/a
+ si es mayor o rigual a 70 eres una ancianito/a
  y si es mayor o igual a 33 ya no eres milenial*/
  let Nombre=prompt("Ingrese su nombre");
  let Eda=prompt("Ingrese su edad");
