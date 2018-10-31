@@ -60,21 +60,29 @@ introducidos por panatalla hasta que el numero sea negativo */
 //      number=parseInt(prompt("Ingrese un numero"));
 // };
 var name=prompt("ingrese el nombre de su usuario");
-var contraseña=prompt("ingrese su contraseña");
+var paswoord=prompt("ingrese su contraseña");
 while (name!=("Dayana")){
     alert("Verifique que nombre de usuario este escrito correctamente");
     name=prompt("ingrese el nombre de su usuario");
     alert("contraseña incorrecta");
     contraseña=prompt("ingrese su contraseña");
 };
-
 var count=0;
-do{
+while(paswoord!=123456){
     alert("contraseña incorrecta");
     contraseña=prompt("ingrese su contraseña");
-    count=5;
-}while(contraseña!=123456);
+    count++;
+if (count>=5) {
+    var change=prompt("Desea cambiar la contraseña si es asi digite "+" Si "+" sino es asi digite No");
+}
+}
+if (change="Si") {
+    var exchange=prompt("Porfavor ingrese su nueva contraseña");
+}else if(change="No"){
+    alert("Gracias");
+}
  document.write("<h1> welcome dayana </h1>");
- if (name==("Dayana")&& contraseña===123456){
+ if (name==("Dayana")&& paswoord===123456){
     alert("Hola Dayana");
 };
+
